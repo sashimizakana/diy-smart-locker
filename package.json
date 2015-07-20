@@ -1,0 +1,27 @@
+{
+  "name": "diy-smart-locker",
+  "version": "1.0.0",
+  "description": "Node.js + lockitron mechanical assembly",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sashimizakana/diy-smart-locker.git"
+  },
+  "author": "sashimizakana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sashimizakana/diy-smart-locker/issues"
+  },
+  "homepage": "https://github.com/sashimizakana/diy-smart-locker",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "pi-gpio": "0.0.7"
+  }
+}
