@@ -3,8 +3,9 @@ var bodyParser = require('body-parser');
 var app = express();
 var server = require('http').Server(app);
 var Lock = require('lib/lock.js');
+var gpio = require('gpio');
 
-var lock = new Lock();
+var lock = new Lock(gpio);
 lock.attach({
 	inA:5
 	,inB:6

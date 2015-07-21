@@ -22,6 +22,7 @@
   "dependencies": {
     "body-parser": "^1.13.2",
     "express": "^4.13.1",
+    "gpio": "^0.2.7",
     "pi-gpio": "0.0.7"
   }
 }
