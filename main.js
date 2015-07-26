@@ -11,8 +11,8 @@ lock.attach({
 	,inB:5
 	,outA:7
 	,outB:24
-	,motor1:17
-	,motor2:27
+	,motor1:11
+	,motor2:13
 });
 
 app.use(bodyParser.json());
