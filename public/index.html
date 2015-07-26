@@ -3,10 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>MyLock</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+	<script src="js/lock.js"></script>
 	<script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <style>
+        lock-status{
+            display:block;
+        }
+        lock-control{
+            display:block;
+        }
+        main{
+            display:block;
+        }
+    </style>
 </head>
 <body>
-	<lock-status></lock-status>
-	<lock-control></lock-control>
+    <div class="container">
+        <main></main>
+    </div>
 </body>
 </html>

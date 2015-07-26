@@ -1,0 +1,10 @@
+<h2 ng-switch on="ctrl.lock.state">
+    <span class="label label-default" ng-switch-when="initialize">初期状態</span>
+    <span class="label label-primary" ng-switch-when="toLock">施錠中</span>
+    <span class="label label-primary" ng-switch-when="locked">施錠</span>
+    <span class="label label-danger" ng-switch-when="toOpen">開錠中</span>
+    <span class="label label-danger" ng-switch-when="opened">開錠</span>
+    <span class="label label-info" ng-switch-when="toNeutral">リセット中</span>
+    <span class="label label-success" ng-switch-when="neutral">待機<span>
+    <span class="label label-default" ng-switch-default>不明</span>
+</h2>
