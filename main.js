@@ -7,12 +7,12 @@ var gpio = require('pi-gpio');
 
 var lock = new Lock(gpio);
 lock.attach({
-	inA:3
-	,inB:5
-	,outA:7
-	,outB:24
-	,motor1:11
-	,motor2:13
+    inA:3
+    ,inB:5
+    ,outA:7
+    ,outB:24
+    ,motor1:11
+    ,motor2:13
 });
 
 app.use(bodyParser.json());
@@ -21,7 +21,7 @@ app.use(express.static('public'));
 server.listen(8080);
 
 app.get('/lock',function(req,res){
-	res.json({'state':lock.state});
+    res.json({'state':lock.state});
 });
 
 app.post('/lock',function(req,res){
@@ -33,7 +33,7 @@ app.post('/lock',function(req,res){
             lock.open();
             break
     }
-	res.json({'state':lock.state});
+    res.json({'state':lock.state});
 });
 
 var distance = null;
