@@ -16,9 +16,7 @@
     "url": "https://github.com/sashimizakana/diy-smart-locker/issues"
   },
   "homepage": "https://github.com/sashimizakana/diy-smart-locker",
-  "devDependencies": {
-    "mocha": "^2.2.5"
-  },
+  "devDependencies": {},
   "dependencies": {
     "body-parser": "^1.13.2",
     "express": "^4.13.1",
